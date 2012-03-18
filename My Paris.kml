@@ -1,0 +1,3203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>My Paris</name>
+  <description><![CDATA[Mostly food. Mostly untested.]]></description>
+  <Style id="style99">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style67">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/flag.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style107">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style132">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/coffeehouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style54">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style116">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style95">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style84">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style120">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style125">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style202">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/coffeehouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style83">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/shopping.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style175">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style137">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style51">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style124">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style167">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style111">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style150">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style189">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style201">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style93">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style139">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style82">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style58">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style77">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style200">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/coffeehouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style72">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style115">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style156">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style62">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style130">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style146">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style148">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style60">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style97">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style52">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style114">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style203">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style183">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style168">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style155">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style126">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style131">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style157">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style177">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style187">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style112">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style195">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style76">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style122">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style206">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style129">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style186">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style184">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style92">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style158">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style71">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style164">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style171">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style89">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style211">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style144">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style199">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style66">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style87">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style53">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style197">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style119">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style90">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style108">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style190">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style70">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/coffeehouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/coffeehouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style98">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/coffeehouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style180">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style162">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style192">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/purple-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style69">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style59">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style91">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style181">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/grocerystore.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/grocerystore.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style207">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/grocerystore.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style210">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/grocerystore.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style73">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/purple-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style193">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style88">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/snack_bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style56">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style86">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style128">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/grocerystore.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style174">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style179">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/coffeehouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style147">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style55">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style78">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style101">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/shopping.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style85">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style118">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/coffeehouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style170">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style63">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/purple-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style205">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/shopping.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/shopping.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style213">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style145">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/purple-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style80">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style191">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style204">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style50">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style133">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style105">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style123">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style57">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style172">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style106">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style151">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style64">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style134">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/coffeehouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style209">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/coffeehouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style75">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style160">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style169">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style100">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style113">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style104">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style176">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style143">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style212">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style110">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style208">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style166">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style81">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style74">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style109">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style61">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style141">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style127">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style140">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style152">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style103">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style173">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style163">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style188">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style198">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style178">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href></href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style165">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style194">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style117">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style135">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style182">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style196">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style159">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style138">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style149">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style96">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style161">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style153">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style65">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style79">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style94">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style154">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style68">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style185">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style142">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style121">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style102">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style136">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>16 Rue Elzévir, 75003 Paris, France</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style99</styleUrl>
+    <Point>
+      <coordinates>2.362018,48.858742,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Google France SARL</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style67</styleUrl>
+    <Point>
+      <coordinates>2.332733,48.869968,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Pantruche, 3 Rue Victor Massé</name>
+    <description><![CDATA[<div style="font-family:arial"><span style="font-size:small">http://hipparis.com/2011/05/13/dining-le-pantruche-aux-deux-amis-are-paris-newest-scene-stealers/#more-16993</span></div>]]></description>
+    <styleUrl>#style107</styleUrl>
+    <Point>
+      <coordinates>2.339946,48.880447,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Deux Amis (Aux)</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style132</styleUrl>
+    <Point>
+      <coordinates>2.371850,48.864609,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Baron Rouge Le</name>
+    <description><![CDATA[<div dir="ltr">Wine Bar; oysters; charcuterie<br><br>http://hipparis.com/2010/04/15/le-baron-rouge-the-quintessential-paris-wine-bar/</div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>2.377616,48.849400,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Angelina - Rivoli</name>
+    <description><![CDATA[<div dir="ltr">Epic hot chocolate. To be confirmed.</div>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>2.328436,48.864941,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coquelicot</name>
+    <description><![CDATA[<div dir="ltr">Brunch!<br></div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>2.337762,48.884869,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Salle à Manger</name>
+    <description><![CDATA[<div dir="ltr">Brunch!</div>]]></description>
+    <styleUrl>#style54</styleUrl>
+    <Point>
+      <coordinates>2.349775,48.839588,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rose Bakery</name>
+    <description><![CDATA[<div dir="ltr">Brunch</div>]]></description>
+    <styleUrl>#style116</styleUrl>
+    <Point>
+      <coordinates>2.340069,48.879379,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rose Bakery 2</name>
+    <description><![CDATA[<div dir="ltr">Brunch</div>]]></description>
+    <styleUrl>#style95</styleUrl>
+    <Point>
+      <coordinates>2.363528,48.862000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Super Nature</name>
+    <description><![CDATA[<div dir="ltr">Brunch. Organic Restaurant</div>]]></description>
+    <styleUrl>#style84</styleUrl>
+    <Point>
+      <coordinates>2.345210,48.873409,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coco &amp; Co.</name>
+    <description><![CDATA[<div dir="ltr">Brunch. Ok food. In the center of St Germaine but completely hidden away. Quaint.</div>]]></description>
+    <styleUrl>#style120</styleUrl>
+    <Point>
+      <coordinates>2.331316,48.853134,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Breakfast in America</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>2.361185,48.855461,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Breakfast In America</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style125</styleUrl>
+    <Point>
+      <coordinates>2.351095,48.847801,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Alto Cafe</name>
+    <description><![CDATA[<div dir="ltr">Blue Bottle style cappuccino. In carts outside the Galeries Lafayette.</div>]]></description>
+    <styleUrl>#style202</styleUrl>
+    <Point>
+      <coordinates>2.331149,48.873173,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Galeries Lafayette</name>
+    <description><![CDATA[<div dir="ltr">Kayser and Sadaharu Aoki boulangeries on the 1st floor of the Women&#39;s building.</div>]]></description>
+    <styleUrl>#style83</styleUrl>
+    <Point>
+      <coordinates>2.333125,48.873020,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Boulangerie Poilâne</name>
+    <description><![CDATA[<div dir="ltr">Try the croissant. Sourdough Round.</div>]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>2.329372,48.851543,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Popelini</name>
+    <description><![CDATA[<div>Cream puffs. Liked the Caramel. Try the dark chocolate.</div><div><br>&nbsp;</div>29 Rue Debelleyme 75003 Paris, France<br><a href="http://maps.google.com/maps/place?ftid=0x47e66e06e8b74407:0x1ab4c5c7815ecb39&amp;q=29+Rue+Debelleyme,+75003+Paris,+France&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=o2sLTvfbKcHgjgfJ1uy2BA&amp;dtab=5"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=48.862403,2.363876&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style175</styleUrl>
+    <Point>
+      <coordinates>2.363876,48.862404,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Jacques Genin</name>
+    <description><![CDATA[<div dir="ltr">Try the tonka chocolates. Also, &quot;Jacques Genin is the greatest classic pastry chef in Paris.&quot;</div>]]></description>
+    <styleUrl>#style137</styleUrl>
+    <Point>
+      <coordinates>2.364572,48.864494,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Café des Musées</name>
+    <description><![CDATA[<div dir="ltr">Love this place. Menu is 25€ or so. Try the fries.</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>2.364411,48.858120,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Breizh Cafe</name>
+    <description><![CDATA[<div dir="ltr">Great buckwheat crepes with &quot;artisan&quot; ingredients. (Buy the Bordier butter, aux sel de mer.)</div>]]></description>
+    <styleUrl>#style51</styleUrl>
+    <Point>
+      <coordinates>2.361872,48.860607,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>L&#39;as Du Fallafel</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>2.359102,48.857426,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amorino</name>
+    <description><![CDATA[<div dir="ltr">Gelato. Probably my fav.</div>]]></description>
+    <styleUrl>#style124</styleUrl>
+    <Point>
+      <coordinates>2.357536,48.857597,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Stollys</name>
+    <description><![CDATA[<div dir="ltr">Expat dive bar.</div>]]></description>
+    <styleUrl>#style167</styleUrl>
+    <Point>
+      <coordinates>2.357307,48.856434,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bread &amp; Roses</name>
+    <description><![CDATA[<div dir="ltr">Try the croissant. </div>]]></description>
+    <styleUrl>#style111</styleUrl>
+    <Point>
+      <coordinates>2.331415,48.847008,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Experimental Cocktail Club</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style150</styleUrl>
+    <Point>
+      <coordinates>2.348292,48.866123,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Harry&#39;s New York Bar</name>
+    <description><![CDATA[<div dir="ltr">100 years old in 2011. Try the piano bar downstairs too.</div>]]></description>
+    <styleUrl>#style189</styleUrl>
+    <Point>
+      <coordinates>2.332170,48.869225,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chez Vong</name>
+    <description><![CDATA[<div dir="ltr">Multi-course Peking Duck. Go for the 2-service of duck skin app and duck main. Good dumplings.<br>&nbsp;</div>]]></description>
+    <styleUrl>#style201</styleUrl>
+    <Point>
+      <coordinates>2.349199,48.862785,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Georges Larnicol</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>2.359686,48.855564,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Georges Larnicol</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>2.339022,48.852551,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Drouant</name>
+    <description><![CDATA[<div dir="ltr">Open on Sunday. Good prix fixe on weekends</div>]]></description>
+    <styleUrl>#style93</styleUrl>
+    <Point>
+      <coordinates>2.334344,48.868694,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Des Gâteaux et du Pain</name>
+    <description><![CDATA[<div dir="ltr">Try the croissant.<br></div>]]></description>
+    <styleUrl>#style139</styleUrl>
+    <Point>
+      <coordinates>2.314576,48.841267,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Marcel</name>
+    <description><![CDATA[<div dir="ltr">English and American Brunch. Eggs benedict.<br><br>1 Villa Léandre, 75018 Paris, France<br></div>]]></description>
+    <styleUrl>#style82</styleUrl>
+    <Point>
+      <coordinates>2.335477,48.888481,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Les Fines Gueules</name>
+    <description><![CDATA[<div dir="ltr">Open every day. burrata and mozzarella di buffalo. charcuterie, carpaccio. (best?) tartare, tenderloin, merlu(hake)</div>]]></description>
+    <styleUrl>#style58</styleUrl>
+    <Point>
+      <coordinates>2.340535,48.865292,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fish la Boissonerie</name>
+    <description><![CDATA[<div dir="ltr">Open Sunday and Monday. Eat at Bar. Great place. Half anglo, half french.</div>]]></description>
+    <styleUrl>#style77</styleUrl>
+    <Point>
+      <coordinates>2.336974,48.854202,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Verre Volé</name>
+    <description><![CDATA[<div dir="ltr">Classic French Bistro</div>]]></description>
+    <styleUrl>#style200</styleUrl>
+    <Point>
+      <coordinates>2.363528,48.872772,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>sugarplum cake shop</name>
+    <description><![CDATA[<div dir="ltr">Cakes, cookies and free coffee refills.</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>2.349928,48.845325,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Spring</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style72</styleUrl>
+    <Point>
+      <coordinates>2.342012,48.860958,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Chardenoux</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style115</styleUrl>
+    <Point>
+      <coordinates>2.384915,48.852791,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>L&#39;Auberge Café</name>
+    <styleUrl>#style156</styleUrl>
+    <Point>
+      <coordinates>2.344620,48.858212,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Saturne</name>
+    <styleUrl>#style62</styleUrl>
+    <Point>
+      <coordinates>2.341815,48.868359,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Charbon Rouge Restaurant</name>
+    <description><![CDATA[<div dir="ltr">Excellent Steak Frites according to Paris By Mouth. Also has bacon burger.</div>]]></description>
+    <styleUrl>#style130</styleUrl>
+    <Point>
+      <coordinates>2.303984,48.868958,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Relais de l&#39;Entrecôte Saint Germain</name>
+    <description><![CDATA[<div dir="ltr">Excellent Steak Frites. According to Paris by Mouth</div>]]></description>
+    <styleUrl>#style146</styleUrl>
+    <Point>
+      <coordinates>2.332919,48.854671,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>L&#39;Atelier de Joël Robuchon</name>
+    <description><![CDATA[<div dir="ltr">Steak Frites and everything else. Eat at the bar.</div>]]></description>
+    <styleUrl>#style148</styleUrl>
+    <Point>
+      <coordinates>2.327926,48.856831,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bistrot Paul Bert</name>
+    <description><![CDATA[<div dir="ltr">Steak Frites according to Paris by Mouth<br></div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>2.384883,48.852211,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Severo</name>
+    <description><![CDATA[<div dir="ltr">Steak Frites<br></div>]]></description>
+    <styleUrl>#style60</styleUrl>
+    <Point>
+      <coordinates>2.324311,48.831612,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>CHEZ OMAR</name>
+    <description><![CDATA[<div dir="ltr">Couscous and Roast Lamb</div>]]></description>
+    <styleUrl>#style97</styleUrl>
+    <Point>
+      <coordinates>2.361502,48.863312,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maoz</name>
+    <description><![CDATA[<div dir="ltr">Great falafel according to Lebowitz. 4 hot sauces and whole wheat pita if you ask.</div>]]></description>
+    <styleUrl>#style52</styleUrl>
+    <Point>
+      <coordinates>2.345595,48.852947,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maoz</name>
+    <description><![CDATA[<div dir="ltr">Great falafel according to Lebowitz. 4 hot sauces and whole wheat pita if you ask.</div>]]></description>
+    <styleUrl>#style114</styleUrl>
+    <Point>
+      <coordinates>2.341749,48.853413,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gosselin</name>
+    <description><![CDATA[<div dir="ltr">Baguette.</div>]]></description>
+    <styleUrl>#style203</styleUrl>
+    <Point>
+      <coordinates>2.341686,48.861538,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Philippe Gosselin</name>
+    <description><![CDATA[<div dir="ltr">Baguette<br></div>]]></description>
+    <styleUrl>#style183</styleUrl>
+    <Point>
+      <coordinates>2.323085,48.858829,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Boulangerie Julien</name>
+    <description><![CDATA[<div dir="ltr">Baguette and Strawberry tart.</div>]]></description>
+    <styleUrl>#style168</styleUrl>
+    <Point>
+      <coordinates>2.344146,48.861080,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Boulangerie Julien</name>
+    <description><![CDATA[<div dir="ltr">Baguette and Strawberry tart.</div>]]></description>
+    <styleUrl>#style155</styleUrl>
+    <Point>
+      <coordinates>2.350248,48.858665,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Du Pain et des Idées</name>
+    <description><![CDATA[<div dir="ltr">Croissant and Baguette. Chausson à la pomme fraîche. Boule aux graines et céréales</div>]]></description>
+    <styleUrl>#style126</styleUrl>
+    <Point>
+      <coordinates>2.362720,48.871201,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Al Taglio</name>
+    <description><![CDATA[<div dir="ltr">Pizza by the kilo. Try the truffle.</div>]]></description>
+    <styleUrl>#style131</styleUrl>
+    <Point>
+      <coordinates>2.373882,48.864658,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Al Taglio</name>
+    <description><![CDATA[<font size="2" face="arial">Pizza by the Kilo</font><div><font size="2" face="arial">27 Rue de Saintonge</font></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>2.362939,48.862171,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Candelaria</name>
+    <description><![CDATA[<div dir="ltr">Noon to 11pm Tacos and tostados. Tues - Sunday. Secret bar in back.</div>]]></description>
+    <styleUrl>#style157</styleUrl>
+    <Point>
+      <coordinates>2.363959,48.863049,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Merse and the Muse</name>
+    <description><![CDATA[<div dir="ltr">&quot;(fresh and colorful salads, American-style bakery goods, and some of the best espresso in Paris).&quot;</div>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>2.362788,48.865139,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>TARTES KLUGER</name>
+    <description><![CDATA[<div dir="ltr">Tartes, savory and sweet.</div>]]></description>
+    <styleUrl>#style177</styleUrl>
+    <Point>
+      <coordinates>2.363125,48.863682,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant Pink Flamingo</name>
+    <description><![CDATA[<div dir="ltr">Interesting Pizza. Delivery.</div>]]></description>
+    <styleUrl>#style187</styleUrl>
+    <Point>
+      <coordinates>2.361570,48.860485,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pink Flamingo</name>
+    <description><![CDATA[<div dir="ltr">Interesting Pizza. Delivery.</div>]]></description>
+    <styleUrl>#style112</styleUrl>
+    <Point>
+      <coordinates>2.364985,48.873550,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nanashi</name>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>2.351377,48.875252,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nanashi</name>
+    <description><![CDATA[<font size="2" face="arial">57 Rue Charlot</font>]]></description>
+    <styleUrl>#style195</styleUrl>
+    <Point>
+      <coordinates>2.363156,48.863506,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Grazie</name>
+    <description><![CDATA[<div dir="ltr">Pizza. Cocktails. Open Sunday and Monday. Loft décor.</div>]]></description>
+    <styleUrl>#style76</styleUrl>
+    <Point>
+      <coordinates>2.367312,48.859356,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Glou</name>
+    <description><![CDATA[<div dir="ltr">Open Sunday and Monday. &quot;Bit more NYC than Paris.&quot; &quot;Pretty waitresses.&quot;</div>]]></description>
+    <styleUrl>#style122</styleUrl>
+    <Point>
+      <coordinates>2.361425,48.860405,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>L&#39;as Du Fallafel</name>
+    <description><![CDATA[<div dir="ltr">Avoid Sunday afternoon. Crushing line. &quot;Ask for extra sauce piquante.&quot;</div>]]></description>
+    <styleUrl>#style206</styleUrl>
+    <Point>
+      <coordinates>2.359102,48.857426,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Claude Colliot</name>
+    <description><![CDATA[<div dir="ltr">"Some critics love it, others are not convinced. But there is one thing they seem to agree on: Nothing is exactly what it seems at Claude Colliot. Menus at 54€ and 66€." Fresh veggies.</div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>2.354811,48.859821,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chez Marianne</name>
+    <description><![CDATA[<div dir="ltr">Open Sunday. &quot;If you’re craving something other than French food, the middle eastern combination salads here offer a bit of a respite from rich, meaty fare elsewhere.&quot;</div>]]></description>
+    <styleUrl>#style129</styleUrl>
+    <Point>
+      <coordinates>2.358573,48.857761,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>King Falafel Palace</name>
+    <description><![CDATA[<div dir="ltr">Sit down Falafel.</div>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>2.359432,48.857201,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sacha Finkelsztajn</name>
+    <description><![CDATA[<div dir="ltr">Peroshki&#39;s. Tortes. Cumin Bread. Strudle. Good stuff. Closed Tuesday.</div>]]></description>
+    <styleUrl>#style186</styleUrl>
+    <Point>
+      <coordinates>2.358409,48.857845,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Vandermeersch</name>
+    <description><![CDATA[<div dir="ltr">Kouglof on weekends. Lebowitz says best thing in Paris.</div>]]></description>
+    <styleUrl>#style184</styleUrl>
+    <Point>
+      <coordinates>2.405661,48.835648,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pierre Marcolini France</name>
+    <description><![CDATA[<div dir="ltr">Chocolate covered marshmellows.</div>]]></description>
+    <styleUrl>#style92</styleUrl>
+    <Point>
+      <coordinates>2.337132,48.852409,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Maison du Chocolat</name>
+    <description><![CDATA[<font size="2" face="arial">8 Boulevard de la Madeleine</font><div><font size="2" face="arial"><br></font></div><div><font size="2" face="arial">A few of these in Paris. Try the Rigoletto Noir.</font></div>]]></description>
+    <styleUrl>#style158</styleUrl>
+    <Point>
+      <coordinates>2.326459,48.869694,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Les Papilles</name>
+    <description><![CDATA[<div dir="ltr">Choose a bottle of wine off the wall. Can take the rest to go. Saturday Lunch is an option.</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>2.341767,48.844597,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fauchon</name>
+    <description><![CDATA[<div dir="ltr">Grab Bordier Butter here. Lebowitz says it&#39;s the best in the world. Prefers the salted.</div>]]></description>
+    <styleUrl>#style71</styleUrl>
+    <Point>
+      <coordinates>2.325502,48.870708,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Josephine Chez Dumonet</name>
+    <description><![CDATA[<div dir="ltr">Duck confit. Followed by Souffle or mille-feuille.</div>]]></description>
+    <styleUrl>#style164</styleUrl>
+    <Point>
+      <coordinates>2.319804,48.845837,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lao-Lane Xang</name>
+    <description><![CDATA[<font size="2" face="arial">105 Avenue d'Ivry</font><div><font size="2" face="arial"><br></font></div><div><font size="2" face="arial">Toasted Rice Salad. Laotian.&nbsp;</font></div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>2.361493,48.825401,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Crêperie Bretonne Fleurie</name>
+    <description><![CDATA[<div dir="ltr">Lebowitz&#39;s favorite ham and cheese filled crêpe.</div>]]></description>
+    <styleUrl>#style171</styleUrl>
+    <Point>
+      <coordinates>2.380090,48.853500,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amici Miei</name>
+    <description><![CDATA[<div dir="ltr">Elbow the bobo crowds for pizza with roquette and bresaola.</div>]]></description>
+    <styleUrl>#style89</styleUrl>
+    <Point>
+      <coordinates>2.369351,48.858200,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pozzetto</name>
+    <description><![CDATA[<div dir="ltr">Pistache gelelato and a good shot of italian espresso.</div>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>2.356301,48.856754,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Berthillon</name>
+    <description><![CDATA[<div dir="ltr">chocolat amer and fraises des bois</div>]]></description>
+    <styleUrl>#style211</styleUrl>
+    <Point>
+      <coordinates>2.356725,48.851730,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mary</name>
+    <description><![CDATA[<font size="2" face="arial">Gelato.&nbsp;</font><div><font size="2" face="arial"><br></font></div><div><font size="2" face="arial">1 Rue Charles-François Dupuis</font></div>]]></description>
+    <styleUrl>#style144</styleUrl>
+    <Point>
+      <coordinates>2.363031,48.865208,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Place de la Bastille</name>
+    <description><![CDATA[<font size="2" face="arial">Thurs/Sunday Market! 9am to 1pm.</font><div style="font-family:arial;font-size:10pt"><br>&nbsp;</div><div><font size="2" face="arial">http://www.davidlebovitz.com/2006/02/the-sunday-mark/</font></div>]]></description>
+    <styleUrl>#style199</styleUrl>
+    <Point>
+      <coordinates>2.369540,48.853325,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>AU LEVAIN DU MARAIS</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style66</styleUrl>
+    <ExtendedData>
+      <Data name="Address">
+        <value>28, Blvd Beaumarchais 75003 Paris, France</value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>2.364436,48.857098,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Benoit Paris</name>
+    <description><![CDATA[<div dir="ltr">Michelin star. Classic French food.</div>]]></description>
+    <styleUrl>#style87</styleUrl>
+    <Point>
+      <coordinates>2.349866,48.858479,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Bodeguita du IVème</name>
+    <description><![CDATA[<div dir="ltr">Spanish-themed natural wine bar. Small plates. Wines to go.<br><br>58 Rue Quincampoix, 75004 Paris, France<br></div>]]></description>
+    <styleUrl>#style53</styleUrl>
+    <Point>
+      <coordinates>2.350688,48.861382,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>L&#39;Atelier du Chocolat</name>
+    <description><![CDATA[<div dir="ltr">Chokaria, a slab-like mélange of chocolate and caramel,</div>]]></description>
+    <styleUrl>#style197</styleUrl>
+    <Point>
+      <coordinates>2.346731,48.865002,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Bambou</name>
+    <description><![CDATA[<div dir="ltr">Vietnamese. Get the #42.</div>]]></description>
+    <styleUrl>#style119</styleUrl>
+    <Point>
+      <coordinates>2.362485,48.825211,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôtel Ritz Paris</name>
+    <description><![CDATA[<div dir="ltr">Champagne.</div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>2.328847,48.867905,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Dôme du Marais</name>
+    <description><![CDATA[<div dir="ltr">It&#39;s a dome! Nicer restaurant. Great decor.</div>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>2.358052,48.859215,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Gaigne</name>
+    <description><![CDATA[<div dir="ltr">contemporary bistro: Weekday lunches are priced at 17/23€ for two or three courses, and there’s a five-course dinner menu at 42€.</div>]]></description>
+    <styleUrl>#style90</styleUrl>
+    <Point>
+      <coordinates>2.356274,48.860123,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Icho</name>
+    <description><![CDATA[<div dir="ltr">chef Aroun Tanovan turn out pristine sashimi, riotous rolls of pink and green, and salads of seaweed, ginger, and yuzu. The wine list is uncommonly thoughtful, and desserts are by a former Ritz pastry chef.<br>&nbsp;</div>]]></description>
+    <styleUrl>#style108</styleUrl>
+    <Point>
+      <coordinates>2.367240,48.853928,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Isami</name>
+    <description><![CDATA[<div dir="ltr">Sushi on an Island.</div>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>2.355806,48.851257,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Boucherie David</name>
+    <description><![CDATA[<div dir="ltr">Squeeze into this tiny butcher shop for lunch and watch owner Michel Kalifa in action. Good for solo.<br><br>closed Mondays, Fridays and Saturdays, open other days 1-3 PM and at night for private parties of up to 8</div>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>2.358410,48.856483,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mon Vieil Ami</name>
+    <description><![CDATA[<div dir="ltr">Alsatian bistro on the Ile Saint-Louis from Antoine Westermann. €41 menu.</div>]]></description>
+    <styleUrl>#style190</styleUrl>
+    <Point>
+      <coordinates>2.354507,48.852516,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aux Folies</name>
+    <description><![CDATA[<div dir="ltr">it&#39;s one of the best terrasses in the city for watching the buzzing Belleville scene go by. Waiters are friendly, drinks are cheap</div>]]></description>
+    <styleUrl>#style70</styleUrl>
+    <Point>
+      <coordinates>2.377850,48.872215,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chez Jeanette</name>
+    <description><![CDATA[<div dir="ltr">Bar cafe. </div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>2.353600,48.871731,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Caféotheque</name>
+    <description><![CDATA[<div dir="ltr">Roasts beans!</div>]]></description>
+    <styleUrl>#style98</styleUrl>
+    <Point>
+      <coordinates>2.355769,48.854420,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant Astier</name>
+    <description><![CDATA[<div dir="ltr">Good value place by your République digs.</div>]]></description>
+    <styleUrl>#style180</styleUrl>
+    <Point>
+      <coordinates>2.372077,48.866287,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A La Biche Au Bois</name>
+    <description><![CDATA[<div dir="ltr">Classic French cuisine. les oeufs durs mayonnaise, coq au vin, steak frites</div>]]></description>
+    <styleUrl>#style162</styleUrl>
+    <Point>
+      <coordinates>2.371224,48.847885,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chocolats Rochoux</name>
+    <description><![CDATA[<div dir="ltr">Hazelnut Praline Paste? yes, plz.</div>]]></description>
+    <styleUrl>#style192</styleUrl>
+    <Point>
+      <coordinates>2.328523,48.849152,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Matsuri sushi.</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style69</styleUrl>
+    <Point>
+      <coordinates>2.337534,48.866196,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Miroir</name>
+    <description><![CDATA[<div dir="ltr">Bib gourmand. Bistro.</div>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>2.339830,48.883972,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tombe du Ciel</name>
+    <description><![CDATA[<font size="2" face="arial"><div><font size="2" face="arial">Hip wine bar. Charcuterie. Oysters. Owner ex record producer.</font></div><div><font size="2" face="arial"><br></font></div>7 Rue d'Enghien</font>]]></description>
+    <styleUrl>#style59</styleUrl>
+    <Point>
+      <coordinates>2.352736,48.871689,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>&quot;Le Garde Robe&quot;</name>
+    <description><![CDATA[<div dir="ltr">platters of parma ham, cheese or oysters. Organic and bio-dynamic wines.</div>]]></description>
+    <styleUrl>#style91</styleUrl>
+    <Point>
+      <coordinates>2.342361,48.861111,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Monoprix</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style181</styleUrl>
+    <Point>
+      <coordinates>2.357530,48.861614,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Naturalia France</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>2.363934,48.854206,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Naturalia France</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style207</styleUrl>
+    <Point>
+      <coordinates>2.351745,48.858223,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Naturalia France</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style210</styleUrl>
+    <Point>
+      <coordinates>2.355490,48.864803,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dalloyau</name>
+    <description><![CDATA[<div dir="ltr">Invented the Opera cake. Ancient and good pastry shop.</div>]]></description>
+    <styleUrl>#style73</styleUrl>
+    <Point>
+      <coordinates>2.368623,48.854237,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Scoop</name>
+    <description><![CDATA[<font size="2" face="arial"><div><font size="2" face="arial">Great bacon cheese-burger and milkshakes.</font></div><div><font size="2" face="arial">(recently sold, change unknown)</font></div>154 Rue Saint-Honoré</font>]]></description>
+    <styleUrl>#style193</styleUrl>
+    <Point>
+      <coordinates>2.340123,48.861973,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pates Vivantes (Les)</name>
+    <description><![CDATA[<div dir="ltr">Great value. Homemade asian noodles. </div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>2.341568,48.874687,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>West Country Girl</name>
+    <description><![CDATA[<span style="font-family:arial;font-size:small"><div><span style="font-family:arial;font-size:small">Great crepes. Cheap. Homemade salted butter caramel. Good coffee. Wednesday, Fresh oysters from Normany. Sardines.</span></div>6 Passage Saint-Ambroise</span>]]></description>
+    <styleUrl>#style88</styleUrl>
+    <Point>
+      <coordinates>2.377419,48.863400,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>LES COCOTTES</name>
+    <description><![CDATA[<div dir="ltr">de Christian Constant.</div>]]></description>
+    <styleUrl>#style56</styleUrl>
+    <Point>
+      <coordinates>2.301960,48.858322,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Petite Chaise</name>
+    <description><![CDATA[<div dir="ltr">Open every day. Good honest French food. </div>]]></description>
+    <styleUrl>#style86</styleUrl>
+    <Point>
+      <coordinates>2.327444,48.853874,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lapérouse</name>
+    <description><![CDATA[<div dir="ltr">Hyper-romantic. Also, can reserve a salon privée for 2.</div>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>2.341538,48.855240,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Huilerie Leblanc</name>
+    <description><![CDATA[<div dir="ltr">Nut oils especially, but also olive.</div>]]></description>
+    <styleUrl>#style128</styleUrl>
+    <Point>
+      <coordinates>2.336187,48.854778,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Huîtrerie Régis</name>
+    <description><![CDATA[<div dir="ltr">Oysters.</div>]]></description>
+    <styleUrl>#style174</styleUrl>
+    <Point>
+      <coordinates>2.335928,48.852764,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>L&#39;Étoile d&#39;Or - Denise Acabo</name>
+    <description><![CDATA[<div dir="ltr">Candy.</div>]]></description>
+    <styleUrl>#style179</styleUrl>
+    <Point>
+      <coordinates>2.333686,48.882401,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Coupole</name>
+    <description><![CDATA[<div dir="ltr">Brasserie.</div>]]></description>
+    <styleUrl>#style147</styleUrl>
+    <Point>
+      <coordinates>2.328057,48.842350,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bofinger</name>
+    <description><![CDATA[<div dir="ltr">Brasserie.</div>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>2.367985,48.853931,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bistro Chantefable</name>
+    <description><![CDATA[<div dir="ltr">Brasserie. Young, small and unglamorous. BoBo hood.</div>]]></description>
+    <styleUrl>#style55</styleUrl>
+    <Point>
+      <coordinates>2.399633,48.866436,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Au Gout Dujor</name>
+    <description><![CDATA[<div dir="ltr">Best value in Paris?</div>]]></description>
+    <styleUrl>#style78</styleUrl>
+    <Point>
+      <coordinates>2.285684,48.847565,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Jadis</name>
+    <description><![CDATA[<div dir="ltr">Best Bistro in Paris? (Great value)</div>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>2.289316,48.837292,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kitchen Bazaar</name>
+    <description><![CDATA[<div dir="ltr">Kitchen supplies.</div>]]></description>
+    <styleUrl>#style101</styleUrl>
+    <Point>
+      <coordinates>2.364059,48.862209,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant La Véraison</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style85</styleUrl>
+    <Point>
+      <coordinates>2.297272,48.845001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tien Hiang</name>
+    <description><![CDATA[<div dir="ltr">Great vegetarian asian.</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>2.380898,48.860970,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cafe Charlot</name>
+    <description><![CDATA[<div dir="ltr">Try the Moroccan/mint(?) tea and the hamburger. Good place to people watch and chill, assuming there's a seat.</div>]]></description>
+    <styleUrl>#style118</styleUrl>
+    <Point>
+      <coordinates>2.362485,48.863045,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Cinq</name>
+    <description><![CDATA[<div dir="ltr">Michelin 2-stars. Maybe the best restaurant in Paris.</div>]]></description>
+    <styleUrl>#style170</styleUrl>
+    <Point>
+      <coordinates>2.300944,48.868736,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bakery: Mauclerc Véronique</name>
+    <description><![CDATA[<div dir="ltr">http://www.davidlebovitz.com/2007/09/veronique-maucl/</div>]]></description>
+    <styleUrl>#style63</styleUrl>
+    <Point>
+      <coordinates>2.385051,48.883381,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>E. Dehillerin</name>
+    <description><![CDATA[Kitchen supply. Match item #s with books around the store.]]></description>
+    <styleUrl>#style205</styleUrl>
+    <Point>
+      <coordinates>2.342756,48.863838,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Au Pied de Cochon</name>
+    <description><![CDATA[<div dir="ltr">Open 24 hrs! Rich French food.</div>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>2.343603,48.863422,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aux Tonneaux des Halles</name>
+    <description><![CDATA[<div dir="ltr"> The food is standard French bistro fare; Tête de veau, steak frites, and andouilettes, but the interior is worthy of a visit and all dishes are less than €20. Curiously, you can find many natural wines on the list,</div>]]></description>
+    <styleUrl>#style213</styleUrl>
+    <Point>
+      <coordinates>2.346515,48.863716,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Boulangerie Collet</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style145</styleUrl>
+    <Point>
+      <coordinates>2.347160,48.866268,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Frenchie</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>2.347927,48.867844,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant L&#39;Agrume</name>
+    <description><![CDATA[<div dir="ltr">37€ for a five-course menu. Reserve in advance, and try for a seat at the counter, where you can see Franck Marchesi-Grandiin action.</div>]]></description>
+    <styleUrl>#style80</styleUrl>
+    <Point>
+      <coordinates>2.356192,48.838795,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Bistro des Gastronomes</name>
+    <description><![CDATA[<div dir="ltr">Everyone likes the razor clams and reasonable prices at this neighborhood restaurant<br><br>10 Rue du Cardinal Lemoine, 75005 Paris, France<br></div>]]></description>
+    <styleUrl>#style191</styleUrl>
+    <Point>
+      <coordinates>2.354029,48.849087,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Christophe</name>
+    <description><![CDATA[<font size="2" face="arial"><div><font size="2" face="arial">Good food, bad decor.</font></div><div><font size="2" face="arial"><br></font></div>8 Rue Descartes</font>]]></description>
+    <styleUrl>#style204</styleUrl>
+    <Point>
+      <coordinates>2.348588,48.847172,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dans les Landes (Afaria)</name>
+    <description><![CDATA[<div dir="ltr">Tapas and deserts. </div>]]></description>
+    <styleUrl>#style50</styleUrl>
+    <Point>
+      <coordinates>2.351329,48.839706,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Desvouges</name>
+    <description><![CDATA[<div dir="ltr">Good prices. &quot;Direct French cooking.&quot;</div>]]></description>
+    <styleUrl>#style133</styleUrl>
+    <Point>
+      <coordinates>2.356081,48.839142,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Itinéraires</name>
+    <description><![CDATA[<div dir="ltr">Modern French Bistro</div>]]></description>
+    <styleUrl>#style105</styleUrl>
+    <Point>
+      <coordinates>2.352246,48.850143,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Pré Verre</name>
+    <description><![CDATA[<div dir="ltr">Bargain Fusion.</div>]]></description>
+    <styleUrl>#style123</styleUrl>
+    <Point>
+      <coordinates>2.345990,48.850002,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ribouldingue</name>
+    <description><![CDATA[<div dir="ltr">Le Ribouldingue is not for the faint of heart, but for those who want to eat it. Heart, that is. And bones and liver and tongue and kidney.</div>]]></description>
+    <styleUrl>#style57</styleUrl>
+    <Point>
+      <coordinates>2.347098,48.852402,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Les Cocottes</name>
+    <description><![CDATA[<font size="2" face="arial">135 Rue Saint-Dominique<span style="white-space:pre">	</span></font>]]></description>
+    <styleUrl>#style172</styleUrl>
+    <Point>
+      <coordinates>2.302085,48.858311,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Thoumieux</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style106</styleUrl>
+    <Point>
+      <coordinates>2.308671,48.859818,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chez L&#39;Ami Jean</name>
+    <description><![CDATA[<div dir="ltr">Basque-ish. Filling. Good deal. "Bistronomy" according to GQ. Busy.</div>]]></description>
+    <styleUrl>#style151</styleUrl>
+    <Point>
+      <coordinates>2.305963,48.860195,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>FL</name>
+    <description><![CDATA[<font size="2" face="arial">1 Rue Augereau</font>]]></description>
+    <styleUrl>#style64</styleUrl>
+    <Point>
+      <coordinates>2.301492,48.858116,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hokkaido</name>
+    <description><![CDATA[<div dir="ltr">This busy noodle bar stands apart from the crowd of Japanese restaurants on and near rue Sainte Anne. Start with gyoza, finish with the ramen of your choice.<br>Closed Wednesday.</div>]]></description>
+    <styleUrl>#style134</styleUrl>
+    <Point>
+      <coordinates>2.337062,48.867680,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Petit Vendôme</name>
+    <description><![CDATA[<div dir="ltr">Locals. Amazing sandwichs. Good for solo dining. Baguette from B. Julien.</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>2.329622,48.868786,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Rubis</name>
+    <description><![CDATA[<div dir="ltr">Lunch only. Locals and casual.. A fav wine bar of Lebovitz. </div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>2.331463,48.866291,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coinstot Vino</name>
+    <description><![CDATA[<div dir="ltr">Wine bar. Good snacks. Ok plats. Natural wines.</div>]]></description>
+    <styleUrl>#style209</styleUrl>
+    <Point>
+      <coordinates>2.341562,48.870636,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Tour D&#39;Argent</name>
+    <description><![CDATA[<div dir="ltr">160€ menu. One star. 5 forks.</div>]]></description>
+    <styleUrl>#style75</styleUrl>
+    <Point>
+      <coordinates>2.355131,48.849842,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Septime</name>
+    <description><![CDATA[<div dir="ltr">Modern French. Foodies. Renowned Chef. Dinner =&lt; 50€. </div>]]></description>
+    <styleUrl>#style160</styleUrl>
+    <Point>
+      <coordinates>2.380431,48.853565,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Happy Nouilles</name>
+    <description><![CDATA[<div dir="ltr">Chinese Dive. Handmade noodles. Great &quot;ramen&quot; with ground pork. Cheap. Hot chili oil.</div>]]></description>
+    <styleUrl>#style169</styleUrl>
+    <Point>
+      <coordinates>2.355151,48.864449,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Agapé Substance</name>
+    <description><![CDATA[<div dir="ltr">&quot;explosions of concentrated flavors, gorgeous food, pristine ingredients, and toss in a friendly, easy atmosphere for good measure.&quot;<br><br>Menus from 55 - 99€.<br><br>66 Rue Mazarine, 75006 Paris, France<br></div>]]></description>
+    <styleUrl>#style100</styleUrl>
+    <Point>
+      <coordinates>2.337991,48.854420,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Yam&#39;Tcha</name>
+    <description><![CDATA[<div dir="ltr">Food paired with tea. "Bistronomy" by GQ. €50-99 for Dinner. Half for lunch. Closed Mon and Tues.</div>]]></description>
+    <styleUrl>#style113</styleUrl>
+    <Point>
+      <coordinates>2.342377,48.861645,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>L&#39;Avant Goût</name>
+    <description><![CDATA[<div dir="ltr">remarkable fourteen-euro prix fixe lunch -- GQ</div>]]></description>
+    <styleUrl>#style104</styleUrl>
+    <Point>
+      <coordinates>2.353330,48.828838,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Robert et Louise</name>
+    <description><![CDATA[<div dir="ltr">Fireplace cooking!</div>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>2.359502,48.859158,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Loir Dans la Théière</name>
+    <description><![CDATA[<div dir="ltr">Open at 9:30am. Good tarts and quiches. L'ordinateur est interdit!</div>]]></description>
+    <styleUrl>#style176</styleUrl>
+    <Point>
+      <coordinates>2.361062,48.856262,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Au Gourmand</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style143</styleUrl>
+    <Point>
+      <coordinates>2.336105,48.865200,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Bouledogue</name>
+    <description><![CDATA[<div dir="ltr">Easy Bistro. Opens at 9:30 am. T.L.J. Might be worth checking out. Steak Frites?</div>]]></description>
+    <styleUrl>#style212</styleUrl>
+    <Point>
+      <coordinates>2.354659,48.860912,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dame Tartine</name>
+    <description><![CDATA[<div dir="ltr">4 stars on yelp. http://www.yelp.com/biz/dame-tartine-paris</div>]]></description>
+    <styleUrl>#style110</styleUrl>
+    <Point>
+      <coordinates>2.351431,48.859058,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Petit Marché</name>
+    <description><![CDATA[<div dir="ltr">8am - Midnight. 4 stores on Yelp. 4.5 on Places. French.</div>]]></description>
+    <styleUrl>#style208</styleUrl>
+    <Point>
+      <coordinates>2.366053,48.857334,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Café Rouge</name>
+    <description><![CDATA[<div dir="ltr">5 reviews on yelp, 4 stars. Interesting decor and architecture maybe. 9am - 2am. Open Late.</div>]]></description>
+    <styleUrl>#style166</styleUrl>
+    <Point>
+      <coordinates>2.363466,48.864491,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Les Caves Saint Gilles</name>
+    <description><![CDATA[<div dir="ltr">Tapas Bar. Super close. Dinner starts at 8. Sangria. Open from 8:30am to 2am. Open Late.</div>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>2.367193,48.857792,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Café-Restaurant Louis Philippe</name>
+    <description><![CDATA[<div dir="ltr">4 stars yelp (5 French reviews). 4 stars on Place (40 reviews). Terrace just off the Seine.</div>]]></description>
+    <styleUrl>#style81</styleUrl>
+    <Point>
+      <coordinates>2.354938,48.854412,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Comptoir des Mers</name>
+    <description><![CDATA[<div dir="ltr">Seafood from a fish monger. 4 stars on Yelp.</div>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>2.362909,48.854580,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lao Viet</name>
+    <description><![CDATA[<div dir="ltr">Isaan.</div>]]></description>
+    <styleUrl>#style74</styleUrl>
+    <Point>
+      <coordinates>2.373972,48.823303,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lao Lane Xang 2</name>
+    <description><![CDATA[<div dir="ltr">Isaan/Thai</div>]]></description>
+    <styleUrl>#style109</styleUrl>
+    <Point>
+      <coordinates>2.361546,48.825310,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chez Paï</name>
+    <description><![CDATA[<div dir="ltr">Isaan/Thai</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>2.348464,48.876293,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Josephine Chez Dumonet</name>
+    <description><![CDATA[<div dir="ltr">Beef Bourgogne. Found on Chowhound.<br></div>]]></description>
+    <styleUrl>#style61</styleUrl>
+    <Point>
+      <coordinates>2.319804,48.845837,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A La Biche Au Bois</name>
+    <description><![CDATA[<div dir="ltr">Beef Bourgogne. 4 stars on Places.</div>]]></description>
+    <styleUrl>#style141</styleUrl>
+    <Point>
+      <coordinates>2.371224,48.847885,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C&#39;est mon Plaisir</name>
+    <description><![CDATA[<font face="arial" size="2"><div><font face="arial" size="2">Looks nice. Mid-range prices. Found on Talbot.</font></div><div><font face="arial" size="2"><br></font></div>42 Rue Saint-Louis en l'Île</font>]]></description>
+    <styleUrl>#style127</styleUrl>
+    <Point>
+      <coordinates>2.357064,48.851704,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Dos de la Baleine</name>
+    <description><![CDATA[<div dir="ltr">Good cheap food for locals. 29€ lunch with wine according to Talbot. Food sounds french.</div>]]></description>
+    <styleUrl>#style140</styleUrl>
+    <Point>
+      <coordinates>2.354811,48.859821,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bascou</name>
+    <description><![CDATA[<div dir="ltr">Closed Weekends. Talbott reviewed. 35€ a head. Basque.</div>]]></description>
+    <styleUrl>#style152</styleUrl>
+    <Point>
+      <coordinates>2.357368,48.865376,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Merci</name>
+    <description><![CDATA[<div dir="ltr">Highly rated by Talbott</div>]]></description>
+    <styleUrl>#style103</styleUrl>
+    <Point>
+      <coordinates>2.367247,48.860832,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Carré des Vosges</name>
+    <description><![CDATA[<div dir="ltr">Decent according to Talbott. Good for locals.<br></div>]]></description>
+    <styleUrl>#style173</styleUrl>
+    <Point>
+      <coordinates>2.365143,48.858028,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant Derrière</name>
+    <description><![CDATA[<div dir="ltr">Open in August, every day. Trendy staff.<br>Try the classic Coq au Vin, Grapefruit and Sweet Pea Salad, BBQ Chilli Oil Squid with Grilled Aubergine, and Prawns in Seafood Bisque served as Oeuf Cocotte.</div>]]></description>
+    <styleUrl>#style163</styleUrl>
+    <Point>
+      <coordinates>2.354258,48.864513,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tire Bouchon</name>
+    <description><![CDATA[<div dir="ltr">Open every day lunch and dinner, except Sunday lunch<br>Traditional French. Good for that "I love Paris moment". Chevre Salad with Sweet Balsamic,  great pastas and ravioli; Tarte Tatin.</div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>2.348766,48.864616,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>L&#39;Ardoise</name>
+    <description><![CDATA[<div dir="ltr">Open in August. Reasonable prices for French Classics.</div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>2.326996,48.866280,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pamela Popo</name>
+    <description><![CDATA[<div dir="ltr">Be seen here. Open in August.<br>Mushroom and Asparagus Ravioli with Pain Perdu, Crab and Avocado Millefeuille with Wakame Emulsion and Chocolate Hazelnut Praline Mousse.</div>]]></description>
+    <styleUrl>#style188</styleUrl>
+    <Point>
+      <coordinates>2.357013,48.855808,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mini Palais</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style198</styleUrl>
+    <Point>
+      <coordinates>2.312896,48.865227,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aux 3 éléphants</name>
+    <description><![CDATA[<div dir="ltr">Good Thai. 250ml wine + spring rolls + green chicken curry == 25€<br><br>Cute Thai girl with great haircut that speaks german.</div>]]></description>
+    <styleUrl>#style178</styleUrl>
+    <Point>
+      <coordinates>2.347962,48.864742,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dans les Landes (Afaria)</name>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>2.351329,48.839706,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Anahï</name>
+    <description><![CDATA[<div dir="ltr">Argentine Steak House. http://paris.unlike.net/locations/308229-Anahi</div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>2.358254,48.867054,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le 404</name>
+    <description><![CDATA[<font face="arial" size="2">Moroccan.</font><div><font face="arial" size="2">http://paris.unlike.net/locations/304149-Le-404</font></div>]]></description>
+    <styleUrl>#style165</styleUrl>
+    <Point>
+      <coordinates>2.354239,48.864532,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant Le Trumilou</name>
+    <description><![CDATA[<div dir="ltr">Classic French.<br>http://paris.unlike.net/locations/308233-Le-Trumilou</div>]]></description>
+    <styleUrl>#style194</styleUrl>
+    <Point>
+      <coordinates>2.353800,48.854893,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chez Julien</name>
+    <description><![CDATA[<div dir="ltr">Of all the Chez this-and-that, Chez Julien should hover at the top of your list—if you can secure a table, that is. The Costes family purchased and revamped this 1780 bistro in 2007, instantly transforming it into a “hot spot”<br>http://paris.unlike.net/locations/305684-Chez-Julien</div>]]></description>
+    <styleUrl>#style117</styleUrl>
+    <Point>
+      <coordinates>2.355157,48.854687,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shang Palace / Shangri-La Hotel</name>
+    <description><![CDATA[<div dir="ltr">There’s simply no place like this in Paris, both in terms of the cooking and almost as importantly, the atmosphere, which so completely replicates the look, feel and tone of upmarket Chinese tables in major Asian cities that a meal here is completely transporting.</div>]]></description>
+    <styleUrl>#style135</styleUrl>
+    <Point>
+      <coordinates>2.293361,48.863853,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>l&#39;entrée des artistes</name>
+    <description><![CDATA[<div dir="ltr">Cocktails and natural wine. Food.</div>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>2.367635,48.863987,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Père Fouettard</name>
+    <description><![CDATA[<div dir="ltr">Tartare. Outdoor Seating in Winter and Summer.<br><br>http://paris.unlike.net/locations/304696-Le-P-re-Fouettard</div>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>2.348448,48.862572,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Juveniles</name>
+    <description><![CDATA[<div dir="ltr">Funny scotsman runs wine bar. Tapas.<br>http://paris.unlike.net/locations/303986-Juv-niles</div>]]></description>
+    <styleUrl>#style182</styleUrl>
+    <Point>
+      <coordinates>2.337109,48.866238,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Macéo</name>
+    <description><![CDATA[<div dir="ltr">French. Some vegetarian options. <br>http://paris.unlike.net/locations/305260-Mac-o-Restaurant-Bar</div>]]></description>
+    <styleUrl>#style196</styleUrl>
+    <Point>
+      <coordinates>2.338140,48.866302,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Coude à Coude</name>
+    <description><![CDATA[<div dir="ltr">Anonymous but good French. Supposedly.<br>http://paris.unlike.net/locations/305242-Le-coude-a-coude</div>]]></description>
+    <styleUrl>#style159</styleUrl>
+    <Point>
+      <coordinates>2.344289,48.861153,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rice &amp; Fish (&amp; Beans)</name>
+    <description><![CDATA[<div dir="ltr">http://paris.unlike.net/locations/307803-Rice-Beans</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>2.350958,48.865208,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>le Tambour</name>
+    <description><![CDATA[<div dir="ltr">After Hours food.<br>http://paris.unlike.net/locations/305222-Le-Tambour</div>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>2.344715,48.865479,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>L&#39;Estaminet</name>
+    <description><![CDATA[<div dir="ltr">Brunch.<br>http://paris.unlike.net/locations/306989-L-Estaminet</div>]]></description>
+    <styleUrl>#style138</styleUrl>
+    <Point>
+      <coordinates>2.379347,48.866127,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cafe Charbon</name>
+    <description><![CDATA[<div dir="ltr">Real food day and night. Brunch.<br>http://paris.unlike.net/locations/305150-Caf-Charbon</div>]]></description>
+    <styleUrl>#style149</styleUrl>
+    <Point>
+      <coordinates>2.377617,48.865788,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Repaire de Cartouche</name>
+    <description><![CDATA[<div dir="ltr">French/Normandy.<br>http://paris.unlike.net/locations/305150-Caf-Charbon</div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>2.367234,48.861103,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chez Prune</name>
+    <description><![CDATA[<div dir="ltr">Popular. Cocktails. Wine. Food.<br>http://paris.unlike.net/locations/301437-Chez-Prune</div>]]></description>
+    <styleUrl>#style96</styleUrl>
+    <Point>
+      <coordinates>2.364390,48.871593,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chez Jeanette</name>
+    <description><![CDATA[<div dir="ltr">Decor. Clubby.<br>http://paris.unlike.net/locations/304659-Chez-Jeanette</div>]]></description>
+    <styleUrl>#style161</styleUrl>
+    <Point>
+      <coordinates>2.353600,48.871731,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Cambodge</name>
+    <description><![CDATA[<div dir="ltr">Where bobos go for bo bun. Go early or be ready to queue.</div>]]></description>
+    <styleUrl>#style153</styleUrl>
+    <Point>
+      <coordinates>2.366009,48.872070,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fish La Boissonnerie</name>
+    <description><![CDATA[<div dir="ltr">Good food, good people. Kiwi owner.</div>]]></description>
+    <styleUrl>#style65</styleUrl>
+    <Point>
+      <coordinates>2.336974,48.854202,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Itacate</name>
+    <description><![CDATA[<div dir="ltr">Mexican</div>]]></description>
+    <styleUrl>#style79</styleUrl>
+    <Point>
+      <coordinates>2.342445,48.861553,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Café de Flore</name>
+    <description><![CDATA[<div dir="ltr">"The people watching is fantastic at De Flore." French. Solo Dining.</div>]]></description>
+    <styleUrl>#style94</styleUrl>
+    <Point>
+      <coordinates>2.332715,48.853970,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Régalade Saint-Honoré</name>
+    <description><![CDATA[<div dir="ltr">33€ for three courses (barring the few items that come with a supplement). The terrine à volontiers made the trip, too, along with the pork belly with lentils. Otherwise, expect a menu that reflects the season.</div>]]></description>
+    <styleUrl>#style154</styleUrl>
+    <Point>
+      <coordinates>2.341682,48.861538,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>little BREIZH</name>
+    <description><![CDATA[<div dir="ltr">"charming crêperie elevates the genre with organic ingredients"</div>]]></description>
+    <styleUrl>#style68</styleUrl>
+    <Point>
+      <coordinates>2.337939,48.853252,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Creperie Le Pot O Lait Sarl Marie Noelle</name>
+    <description><![CDATA[<div dir="ltr">This tidy spot near rue Mouffetard is short on the usual Breton bric-a-brac, and long on quality. Number three on our list of Five Great for Crêpes.<br></div>]]></description>
+    <styleUrl>#style185</styleUrl>
+    <Point>
+      <coordinates>2.351632,48.839954,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chatomat</name>
+    <description><![CDATA[<div dir="ltr">Food.</div>]]></description>
+    <styleUrl>#style142</styleUrl>
+    <Point>
+      <coordinates>2.385323,48.867195,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Au Passage</name>
+    <description><![CDATA[<div dir="ltr">The kitchen talent at this new wine bar comes from Spring and Le Verre Volé, and the small plates feel like a hybrid between the two. They range from the standard rillettes, saucisse, and now-obligatory burrata to more light and creative fare, based on great products from the likes of Terroirs d’Avenir and Joël Thiébault. The vibe is relaxed, the prices are right, and the wines, as if you had to ask, are natural. Open until 2 a.m. most nights.<br></div>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>2.368605,48.861546,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Blend Hamburger</name>
+    <description><![CDATA[<div dir="ltr"> sources its beef from renowned butcher Yves-Marie le Bourdonnec. In addition to baking buns, Camille is curating the beer list and making American desserts like cheesecake and whoopie pie </div>]]></description>
+    <styleUrl>#style121</styleUrl>
+    <Point>
+      <coordinates>2.343588,48.865868,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Albion</name>
+    <description><![CDATA[<font face="arial" size="2">80 Rue du Faubourg Poissonnière</font><div style="font-family:arial;font-size:10pt">75010 Paris, France</div><div><font face="arial" size="2">Fish alums. Bartender and Chef. Old name for England.</font><br><font face="arial" size="2">http://parisbymouth.com/our-guide-to-paris-albion/</font></div>]]></description>
+    <styleUrl>#style102</styleUrl>
+    <Point>
+      <coordinates>2.348728,48.876656,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Les Affranchis</name>
+    <description><![CDATA[<font face="arial" size="2">5 Rue Hneri Monnier</font><div style="font-family:arial;font-size:10pt">75009 Paris, France<br>&nbsp;</div><div style="font-family:arial;font-size:10pt"><br>&nbsp;</div><div><font face="arial" size="2">http://parisbymouth.com/our-guide-to-paris-les-affranchis/</font></div>]]></description>
+    <styleUrl>#style136</styleUrl>
+    <Point>
+      <coordinates>2.337405,48.879608,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
