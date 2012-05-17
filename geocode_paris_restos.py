@@ -1,56 +1,51 @@
 #!/usr/bin/env python2.7
 
-# Google Maps API reference on reverse geocoding.
-# https://developers.google.com/maps/documentation/geocoding/#ReverseGeocoding
-
-from pymongo import Connection
-import cStringIO
-import json
-import pycurl
+from lib import db as db_lib
+from lib import geo
+import argparse
+import logging
 import time
 
-def get_resto_collection():
-  m_conn = Connection('localhost:27017')
-  # DBs and collections are lazily and automatically created.
-  m_db = m_conn.db1
-  return m_db.paris_restos
-
-def query_maps_api(url):
-  buf = cStringIO.StringIO()
-  c = pycurl.Curl()
-  c.setopt(c.URL, str(url))
-  c.setopt(c.WRITEFUNCTION, buf.write)
-  c.setopt(c.TIMEOUT, 10)
-  c.perform()
-  d = json.loads(buf.getvalue())
-  buf.close()
-  return d
+parser = argparse.ArgumentParser()
+parser.add_argument('--debug', action='store_true')
+args = parser.parse_args()
 
 def main():
-  maps_api_url = ('http://maps.googleapis.com/maps/api/geocode/json?'
-                  'latlng=%s,%s&sensor=false')
-  paris_restos = get_resto_collection()
-  for resto in paris_restos.find():
-    resto_id = resto['_id']
-    lat = resto['coordinates']['lat'] 
-    lon = resto['coordinates']['lon']
-    d = query_maps_api(maps_api_url % (lat, lon))
-    if d['status'] == 'OK':
-      # Take the first address.
-      d = d['results'][0]
-      street_addr = d['formatted_address']
-      for i in d['address_components']:
-        if 'postal_code' in i['types']:
-          postal_code = i['short_name']
-          
-      print '%s: %s' % (resto['name'], street_addr)
-      paris_restos.update({'_id': resto_id},
-                          {'$set': {'address': street_addr,
-                                    'postal_code': postal_code}},
-                          safe=True)
-    time.sleep(5)
+  if args.debug:
+    logging.basicConfig(level=logging.DEBUG)
+  else:
+    logging.basicConfig(level=logging.WARNING)
 
+  db = db_lib.RestoDB()
+  for resto in db.paris_restos.find():
+    resto_id = resto['_id']
+    if 'coordinates' not in resto:
+      logging.warning('No coordinates for "%s"' % resto['name'])
+      continue
+    latlng = (resto['coordinates']['lat'],
+              resto['coordinates']['lon'])
+    resto_loc = geo.GeoLoc(latlng)
+    if resto_loc.address:
+      logging.debug('%s: %s' % (resto['name'], resto_loc.__dict__))
+      # Rename one of the fields from previous attempts.
+      db.paris_restos.update({'_id': resto_id},
+                             {'$rename': {'coordinates': 'loc'}},
+                             safe=True)
+      updated_fields = {'address': resto_loc.address,
+                        'postal_code': resto_loc.postal_code,
+                        'loc': {'lat': float(latlng[0]),
+                                'lon': float(latlng[1])}}
+      db.paris_restos.update({'_id': resto_id},
+                             {'$set': updated_fields},
+                             safe=True)
+
+    else:
+      logging.error('Failed to geocode %s' % resto['name'])
+      
+    time.sleep(5)    
+    
   return
+
 
 if __name__ == '__main__':
   main()

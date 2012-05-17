@@ -22,38 +22,46 @@ def _query_maps_api(url):
   buf.close()
   return d
 
-def geocode(query):
-  url = MAP_API_URL_BASE
-  if isinstance(query, str):
-    # We received a string containing an address.
-    params = {'address': query}
-    url += urllib.urlencode(params)
-  elif isinstance(query, (list, tuple)):
-    # We received a tuple of lat,lon.
-    if len(query) == 2:
-      params = {'latlng': ','.join(query[0:2])}
-      url += urllib.urlencode(params)
+class GeoLoc(object):
+  """docstring for GeoLoc"""
+  def __init__(self, arg=None):
+    self.address = ''
+    self.latlng = {}
+    self.postal_code = None
 
-  if url == MAP_API_URL_BASE:
-    logging.error('We didn\'t receive properly a formatted' 
-                  'address or latlng.')
-    return None
+    if arg:
+      if isinstance(arg, str):
+        self.geocode_address(arg)
+      elif isinstance(arg, (list, tuple)):
+        self.geocode_latlng(arg)
+      else:
+        logging.error('Unknown arg to GeoLoc constructor.')
 
-  logging.debug('maps query url: %s' % url)
-  maps_data = _query_maps_api(url)
-  results = {}
-  if maps_data['status'] == 'OK':
-    maps_data = maps_data['results'][0]
-    # This is a dict {'lat': float, 'lng': float}
-    results['latlng'] = {'lat': maps_data['geometry']['location']['lat'],
-                         'lon': maps_data['geometry']['location']['lng']}
-    results['address'] = maps_data['formatted_address']
-    for i in maps_data['address_components']:
-      if 'postal_code' in i['types']:
-        results['postal_code'] = i['short_name']
+  def geocode_address(self, address):
+    params = {'address': address}
+    self._geocode(params)
 
-  else:
-    logging.error('maps query failed.')
-    logging.error('maps api result: %s' % maps_data['status'])
+  def geocode_latlng(self, latlng):
+    params = {'latlng': ','.join(latlng[0:2])}
+    self._geocode(params)
 
-  return results
+  def _geocode(self, params):
+    self.address = ''
+    self.latlng = {}
+    self.postal_code = None
+    url = MAP_API_URL_BASE + urllib.urlencode(params)
+    logging.debug('maps query url: %s' % url)
+    maps_data = _query_maps_api(url)
+    if maps_data['status'] == 'OK':
+      maps_data = maps_data['results'][0]
+      self.latlng = (maps_data['geometry']['location']['lat'],
+                     maps_data['geometry']['location']['lng'])
+      self.address = maps_data['formatted_address']
+      for i in maps_data['address_components']:
+        if 'postal_code' in i['types']:
+          self.postal_code = i['short_name']
+          break
+    else:
+      logging.error('maps query failed.')
+      logging.error('maps api result: %s' % maps_data['status'])
+
