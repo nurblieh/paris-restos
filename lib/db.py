@@ -17,5 +17,3 @@ class RestoDB(object):
   #     if k == 'coordinates':
 
   #     if k in fields:
-
-

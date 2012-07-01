@@ -1,0 +1,17 @@
+<html>
+  <body>
+    {{ 2 }}
+    {% for arr in restos_by_arr %}
+      {{ 1 }}
+      <b>{{ arr }}</b>
+{#      <table>
+      {% for resto in restos_by_arr[arr] %}
+        <tr>
+          <td>{{ resto['name'] }}</td>
+          <td>{{ resto['short_address'] }}</td>
+        </tr>
+      {% end %}
+      </table>
+#}    {% end %} 
+  </body>
+</html>
