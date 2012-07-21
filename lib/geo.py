@@ -10,6 +10,7 @@ import urllib
 # https://developers.google.com/maps/documentation/geocoding/#ReverseGeocoding
 MAP_API_URL_BASE = ('http://maps.googleapis.com/maps/api/geocode/json?'
                     'sensor=false&')
+MAP_Q_URL_BASE = ('http://maps.google.com/?')
 
 def _query_maps_api(url):
   buf = cStringIO.StringIO()
@@ -21,6 +22,15 @@ def _query_maps_api(url):
   d = json.loads(buf.getvalue())
   buf.close()
   return d
+
+def gen_map_link(address, name=None):
+  s = address
+  # Adding a "(name)" to the query will label the pin marker.
+  if name:
+    s += ' (%s)' % name
+
+  # urllib.urlencode requires a utf-8 string. unicode blows it up.
+  return MAP_Q_URL_BASE + urllib.urlencode({'q': s.encode('utf-8')})
 
 class GeoLoc(object):
   """docstring for GeoLoc"""
@@ -64,4 +74,3 @@ class GeoLoc(object):
     else:
       logging.error('maps query failed.')
       logging.error('maps api result: %s' % maps_data['status'])
-

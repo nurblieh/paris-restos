@@ -1,17 +1,16 @@
 <html>
   <body>
-    {{ 2 }}
-    {% for arr in restos_by_arr %}
-      {{ 1 }}
-      <b>{{ arr }}</b>
-{#      <table>
-      {% for resto in restos_by_arr[arr] %}
+    {% for arr in range(75001, 75021) %}
+      <h3>{{ arr }}</h3>
+      <table>
+      {% for resto in restos_by_arr.get(arr, []) %}
         <tr>
           <td>{{ resto['name'] }}</td>
-          <td>{{ resto['short_address'] }}</td>
+          <td>{{ resto['short_address'] }} (<a href="{{ resto['map_link'] }}">map</a>)</td>
+	  <td><a href="{{ resto['edit_link'] }}">edit</a></td>
         </tr>
       {% end %}
       </table>
-#}    {% end %} 
+    {% end %} 
   </body>
 </html>

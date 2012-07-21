@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <h2>Edit Resto</h2>
+    <form method="POST" action="/edit_resto"></br>
+      <input name="_id" value="{{ resto['_id'] }}" type="hidden">
+      Name:</br>
+      <input name="name" value="{{ resto['name'] }}"></br>
+      Address:</br>
+      <input name="address" value="{{ resto['address'] }}"></br>
+      Location:
+        lat: <input name="lat" value="{{ resto['loc']['lat'] }}">
+        lon: <input name="lon" value="{{ resto['loc']['lon'] }}"></br>
+      Description:</br>
+      <textarea name="description">{{ resto['description'] or '' }}</textarea></br>
+      Postal Code:</br>
+      <input name="postal_code" value="{{ resto['postal_code'] }}"></br>
+      <input type="submit">
+    </form>
+  </body>
+</html>

@@ -41,9 +41,9 @@ def main():
 
     else:
       logging.error('Failed to geocode %s' % resto['name'])
-      
-    time.sleep(5)    
-    
+
+    time.sleep(3)
+
   return
 
 
