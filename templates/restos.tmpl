@@ -1,9 +1,9 @@
 <html>
   <body>
-    {% for arr in range(75001, 75021) %}
+    {% for arr in range(75001, 75021) + ['Unknown',] %}
       <h3>{{ arr }}</h3>
       <table>
-      {% for resto in restos_by_arr.get(arr, []) %}
+      {% for resto in restos_by_arr.get(str(arr), []) %}
         <tr>
           <td>{{ resto['name'] }}</td>
           <td>{{ resto['short_address'] }} (<a href="{{ resto['map_link'] }}">map</a>)</td>

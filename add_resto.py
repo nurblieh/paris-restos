@@ -57,5 +57,7 @@ def main():
       
   logging.debug(resto)
   db.paris_restos.insert(resto)
+
+
 if __name__ == '__main__':
 	main()

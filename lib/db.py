@@ -9,6 +9,7 @@ class RestoDB(object):
     conn = Connection(LOCAL_DB, safe=True, fsync=True)
     db = conn.db1
     self.paris_restos = db.paris_restos
+    self.resto_users = db.resto_users
 
   # def add_resto(self, name, **kwargs):
   #   fields = (name, description, address, coordinates)

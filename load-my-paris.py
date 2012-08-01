@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 
 from pymongo import Connection
-import elementtree.ElementTree as ET
+import xml.etree.ElementTree as ET
 import time
 
 def build_resto_list():

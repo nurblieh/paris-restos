@@ -4,16 +4,16 @@
     <form method="POST" action="/edit_resto"></br>
       <input name="_id" value="{{ resto['_id'] }}" type="hidden">
       Name:</br>
-      <input name="name" value="{{ resto['name'] }}"></br>
+      <input name="name" value="{{ resto.get('name', '') }}"></br>
       Address:</br>
-      <input name="address" value="{{ resto['address'] }}"></br>
+      <input name="address" value="{{ resto.get('address', '') }}"></br>
       Location:
         lat: <input name="lat" value="{{ resto['loc']['lat'] }}">
         lon: <input name="lon" value="{{ resto['loc']['lon'] }}"></br>
       Description:</br>
-      <textarea name="description">{{ resto['description'] or '' }}</textarea></br>
+      <textarea name="description">{{ resto.get('description', '') or '' }}</textarea></br>
       Postal Code:</br>
-      <input name="postal_code" value="{{ resto['postal_code'] }}"></br>
+      <input name="postal_code" value="{{ resto.get('postal_code', '') }}"></br>
       <input type="submit">
     </form>
   </body>
