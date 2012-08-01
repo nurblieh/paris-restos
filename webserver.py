@@ -31,7 +31,7 @@ class Application(tornado.web.Application):
                 (r'/auth/logout', AuthLogoutHandler),]
     # Load or generate a secret value for login/auth data.
     if os.path.exists('cookie_secret'):
-      cookie_secret = file('cookie_secret').read()
+      cookie_secret = file('cookie_secret').read().strip()
     else:
       logging.warning('File "cookie_secret" not found. Generating one-time'
                       ' value. ')

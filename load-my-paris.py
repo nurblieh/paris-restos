@@ -4,6 +4,7 @@ from pymongo import Connection
 import xml.etree.ElementTree as ET
 import time
 
+
 def build_resto_list():
   restos = []
   myParis = ET.parse('My Paris.kml')
@@ -23,6 +24,7 @@ def build_resto_list():
 
   return restos
 
+
 def main():
   resto_list = build_resto_list()
 
@@ -36,5 +38,7 @@ def main():
 
   print "# of restos inserted: %d" % m_paris_restos.count()
 
+
 if __name__ == '__main__':
   main()
+
