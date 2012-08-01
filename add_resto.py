@@ -17,7 +17,7 @@ parser.add_argument('-n', '--name', required=True,
                     help='Name of the restaurant.')
 parser.add_argument('-c', '--coords',
                     help='lat,lon. Will reverse geocode to address.')
-parser.add_argument('-d', '--description',
+parser.add_argument('-d', '--description', default='',
                     help='Description of the restaurant.')
 parser.add_argument('-a', '--address',
                     help='Address. Will geocode this into coords.')
@@ -35,8 +35,7 @@ def main():
     logging.fatal('Restaurant already exists!')
     sys.exit(1)
 
-  if args.description:
-    resto['description'] = args.description
+  resto['description'] = args.description
     
   if args.coords:
     lat, lon = args.coords.split(',')
@@ -48,10 +47,12 @@ def main():
       logging.fatal('No coords or address given.')
       sys.exit(os.EX_USAGE)
 
-  geo_results = geo.geocode(geo_query)
+  geo_results = geo.GeoLoc(geo_query)
   if geo_results:
-    resto['address'] = geo_results['address']
-    resto['loc'] = geo_results['latlng']
+    resto['address'] = geo_results.address
+    resto['loc'] = {'lat': float(geo_results.latlng[0]),
+                    'lon': float(geo_results.latlng[1])}
+    resto['postal_code'] = geo_results.postal_code
   else:
     logging.warning('Unable to geocode "%s" properly.' % geo_query)
       
