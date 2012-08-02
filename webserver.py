@@ -2,14 +2,12 @@
 
 from lib import db as db_lib
 from lib import geo
-from pymongo import Connection
 from pymongo.helpers import bson
 import argparse
 import base64
 import json
 import logging
 import os
-import pprint
 import time
 import tornado.auth
 import tornado.ioloop
@@ -65,7 +63,6 @@ class BaseHandler(tornado.web.RequestHandler):
 
 class RestosHandler(BaseHandler):
   def get(self):
-    t = time.time()
     # 3 ms
     restos_by_arr = {}
     for resto in self.db.paris_restos.find():
@@ -76,7 +73,11 @@ class RestosHandler(BaseHandler):
            'edit_link': '/edit_resto?id=%s' % urllib.quote(str(resto['_id']))}
       restos_by_arr.setdefault(arr, []).append(d)
 
-      # 30 ms
+    # 30 ms
+    for i in range(75001,75021) + ['Unknown',]:
+      if str(i) in restos_by_arr:
+        restos_by_arr[str(i)].sort(key=lambda x: x['name'])
+
     if self.get_argument('format', None) == 'json':
       self.write(json.dumps(restos_by_arr))
     else:
