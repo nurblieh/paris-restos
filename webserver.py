@@ -8,7 +8,6 @@ import base64
 import json
 import logging
 import os
-import time
 import tornado.auth
 import tornado.ioloop
 import tornado.template
@@ -74,7 +73,7 @@ class RestosHandler(BaseHandler):
       restos_by_arr.setdefault(arr, []).append(d)
 
     # 30 ms
-    for i in range(75001,75021) + ['Unknown',]:
+    for i in range(75001, 75021) + ['Unknown',]:
       if str(i) in restos_by_arr:
         restos_by_arr[str(i)].sort(key=lambda x: x['name'])
 
