@@ -63,9 +63,9 @@ def add_resto():
 
 
 def rm_resto(name_or_id):
-  resto = DB.paris_restos.find_one({'_id': bson.ObjectId(name_or_id)})
+  resto = DB.paris_restos.find_one({'name': name_or_id})
   if not resto:
-    resto = DB.paris_restos.find_one({'name': name_or_id})
+    resto = DB.paris_restos.find_one({'_id': bson.ObjectId(name_or_id)})
 
   if not resto:
     logging.fatal('Unable to find restaurant (%s)', name_or_id)
@@ -73,6 +73,11 @@ def rm_resto(name_or_id):
 
   logging.info('Removing resto (%s).', str(resto))
   DB.paris_restos.remove(resto)
+
+
+def search_resto(name_or_id):
+  # TODO: fill me in
+  pass
 
 
 def main():
