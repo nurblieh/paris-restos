@@ -40,12 +40,12 @@ class GeoLoc(object):
     self.postal_code = None
 
     if arg:
-      if isinstance(arg, str):
+      if isinstance(arg, str) or isinstance(arg, unicode):
         self.geocode_address(arg)
       elif isinstance(arg, (list, tuple)):
         self.geocode_latlng(arg)
       else:
-        logging.error('Unknown arg to GeoLoc constructor.')
+        logging.error('Unknown arg to GeoLoc constructor. (%s)', type(arg))
 
   def geocode_address(self, address):
     params = {'address': address}

@@ -1,19 +1,27 @@
 <html>
   <body>
     <h2>Edit Resto</h2>
-    <form method="POST" action="/edit_resto"></br>
+    <form method="POST" action="/rm_resto">
+      //// Careful! ////</br>
+      <input name="id" value="{{ resto['_id'] }}" type="hidden">
+      <input type="submit" value="Delete Resto"></br>
+      //////////////////</br>
+    </form>
+    <form method="POST" action="/edit_resto">
       <input name="_id" value="{{ resto['_id'] }}" type="hidden">
       Name:</br>
       <input name="name" value="{{ resto.get('name', '') }}"></br>
       Address:</br>
       <input name="address" value="{{ resto.get('address', '') }}"></br>
-      Location:
-        lat: <input name="lat" value="{{ resto['loc']['lat'] }}">
-        lon: <input name="lon" value="{{ resto['loc']['lon'] }}"></br>
+      {% if 'loc' in resto %}
+        Location:
+          lat: <input name="lat" value="{{ resto['loc']['lat'] }}">
+          lon: <input name="lon" value="{{ resto['loc']['lon'] }}"></br>
+      {% end %}
       Description:</br>
       <textarea name="description">{{ resto.get('description', '') or '' }}</textarea></br>
       Postal Code:</br>
-      <input name="postal_code" value="{{ resto.get('postal_code', '') }}"></br>
+      <input name="postal_code" value="{{ resto.get('postal_code', 'Unknown') }}"></br>
       <input type="submit">
     </form>
   </body>

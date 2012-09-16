@@ -6,11 +6,19 @@
       {% for resto in restos_by_arr.get(str(arr), []) %}
         <tr>
           <td>{{ resto['name'] }}</td>
-          <td>{{ resto['short_address'] }} (<a href="{{ resto['map_link'] }}">map</a>)</td>
-	  <td><a href="{{ resto['edit_link'] }}">edit</a></td>
+          <td><a href="{{ resto['map_link'] }}">{{ resto['short_address'] }}</a></td>
+          <td><a href="{{ resto['search_link'] }}">Google</a></td>
+	  {% if user_authd %}
+	    <td> - </td>
+	    <td><a href="{{ resto['edit_link'] }}">edit</a></td>
+	    <td>/</td>
+	    <td><a href="{{ resto['rm_link'] }}">remove</a></td>
+	  {% end %}
         </tr>
       {% end %}
       </table>
     {% end %} 
+    <hr/>
+    <a href="/add_resto">Add Resto</a> - <a href="/auth/login">Login</a> - <a href="/auth/logout">Logout</a>
   </body>
 </html>
