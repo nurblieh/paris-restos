@@ -50,6 +50,12 @@ class BaseHandler(tornado.web.RequestHandler):
   def db(self):
     return self.application.db
 
+  def prepare(self):
+    if 'Android' in self.request.headers.get('User-Agent', ''):
+      self.mobile_browser = True
+    else:
+      self.mobile_browser = False
+
   def get_current_user(self):
     user_id = self.get_secure_cookie('user')
     if not user_id:
@@ -89,9 +95,12 @@ class RestosHandler(BaseHandler):
     if self.get_argument('format', None) == 'json':
       self.write(json.dumps(restos_by_arr))
     else:
+      context = {'restos_by_arr': restos_by_arr,
+                 'user_authd': True if self.get_current_user() else False,
+                 'mobile_browser': self.mobile_browser,
+                 }
       self.render('restos.tmpl',
-                  restos_by_arr=restos_by_arr,
-                  user_authd=True if self.get_current_user() else False)
+                  context=context)
       # 40 ms
 
 class AddRestoHandler(BaseHandler):
