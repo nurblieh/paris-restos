@@ -7,7 +7,7 @@
       {% else %}
         <table>
       {% end %}
-      {% for resto in context['restos_by_arr'].get(str(arr), []) %}
+      {% for resto in context['restos_by_zip'].get(str(arr), []) %}
         <tr>
           <td>{{ resto['name'] }}</td>
           <td><a href="{{ resto['map_link'] }}">{{ resto['short_address'] }}</a></td>
