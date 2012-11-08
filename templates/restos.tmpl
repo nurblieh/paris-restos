@@ -2,7 +2,7 @@
   <body>
     {% for arr in range(75001, 75021) + ['Unknown',] %}
       <h3>{{ arr }}</h3>
-      <table>
+      <table width=100%>
       {% for resto in restos_by_arr.get(str(arr), []) %}
         <tr>
           <td>{{ resto['name'] }}</td>
@@ -18,6 +18,10 @@
       {% end %}
       </table>
     {% end %} 
+    <hr/>
+    {% for tag in tag_list %}
+      <a href="/restos?tag={{ tag }}">{{ tag }}</a>&nbsp
+    {% end %}
     <hr/>
     <a href="/add_resto">Add Resto</a> - <a href="/auth/login">Login</a> - <a href="/auth/logout">Logout</a>
   </body>

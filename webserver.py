@@ -39,7 +39,8 @@ class Application(tornado.web.Application):
     settings = {'debug': args.debug,
                 'cookie_secret': cookie_secret,
                 'template_path': 'templates',
-                'login_url': '/auth/login'}
+                'login_url': '/auth/login',
+                }
     tornado.web.Application.__init__(self, handlers, **settings)
     # Global db handler.
     self.db = db_lib.RestoDB()
@@ -55,43 +56,56 @@ class BaseHandler(tornado.web.RequestHandler):
     if not user_id:
       return None
 
-    current_user = self.db.resto_users.find_one({'_id': bson.ObjectId(user_id)})
+    current_user = self.db.resto_users.find_one(
+        {'_id': bson.ObjectId(user_id)})
     if not current_user:
       logging.info('User cookie decrypted, but not found in DB. (%s).',
                    current_user)
     return current_user
 
+  @staticmethod
+  def urlescape(string):
+    return urllib.quote_plus(string.encode('utf-8'))
 
 class RestosHandler(BaseHandler):
   def get(self):
     # 3 ms
+    filter_tag = self.get_argument('tag', None)
+    tag_list = set()
     restos_by_arr = {}
     for resto in self.db.paris_restos.find():
+      if filter_tag and filter_tag not in resto.get('tags', []):
+        continue
       arr = resto.get('postal_code', 'Unknown')
-      resto_name = resto['name'].encode('utf-8')
-      search_link = ('http://www.google.com/search?q='
-                     '%s+Paris+France' % urllib.quote_plus(resto_name))
+      resto_id = str(resto['_id'])
       resto_address = resto.get('address', '')
+      tag_list.update(resto.get('tags', []))
       d = {'name': resto['name'],
            'short_address': resto_address.split(',')[0],
+           'tags': resto.get('tags', None),
            'map_link': geo.gen_map_link(resto_address, resto['name']),
-           'search_link': search_link,
-           'edit_link': '/edit_resto?id=%s' % urllib.quote(str(resto['_id'])),
-           'rm_link': '/rm_resto?id=%s' % urllib.quote(str(resto['_id'])),
+           'search_link': ('http://www.google.com/search?q='
+                           '%s+Paris+France' % self.urlescape(resto['name'])),
+           'edit_link': '/edit_resto?id=%s' % self.urlescape(resto_id),
+           'rm_link': '/rm_resto?id=%s' % self.urlescape(resto_id),
            }
       restos_by_arr.setdefault(arr, []).append(d)
 
     # 30 ms
+    # Sort the restaurants by name.
     for i in range(75001, 75021) + ['Unknown']:
       if str(i) in restos_by_arr:
         restos_by_arr[str(i)].sort(key=lambda x: x['name'])
+
 
     if self.get_argument('format', None) == 'json':
       self.write(json.dumps(restos_by_arr))
     else:
       self.render('restos.tmpl',
                   restos_by_arr=restos_by_arr,
-                  user_authd=True if self.get_current_user() else False)
+                  user_authd=True if self.get_current_user() else False,
+                  tag_list=tag_list)
+
       # 40 ms
 
 class AddRestoHandler(BaseHandler):
