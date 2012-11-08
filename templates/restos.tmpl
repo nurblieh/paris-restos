@@ -2,13 +2,17 @@
   <body>
     {% for arr in range(75001, 75021) + ['Unknown',] %}
       <h3>{{ arr }}</h3>
-      <table width=100%>
-      {% for resto in restos_by_arr.get(str(arr), []) %}
+      {% if context['mobile_browser'] %}
+        <table width="100%">
+      {% else %}
+        <table>
+      {% end %}
+      {% for resto in context['restos_by_zip'].get(str(arr), []) %}
         <tr>
           <td>{{ resto['name'] }}</td>
           <td><a href="{{ resto['map_link'] }}">{{ resto['short_address'] }}</a></td>
           <td><a href="{{ resto['search_link'] }}">Google</a></td>
-	  {% if user_authd %}
+	  {% if context['user_authd'] %}
 	    <td> - </td>
 	    <td><a href="{{ resto['edit_link'] }}">edit</a></td>
 	    <td>/</td>
@@ -19,7 +23,7 @@
       </table>
     {% end %} 
     <hr/>
-    {% for tag in tag_list %}
+    {% for tag in context['tag_list'] %}
       <a href="/restos?tag={{ tag }}">{{ tag }}</a>&nbsp
     {% end %}
     <hr/>

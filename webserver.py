@@ -19,7 +19,6 @@ parser.add_argument('--debug', action='store_true')
 parser.add_argument('--port', type=int, default=8888)
 args = parser.parse_args()
 
-
 class Application(tornado.web.Application):
   def __init__(self):
     handlers = [(r'/restos', RestosHandler),
@@ -51,6 +50,12 @@ class BaseHandler(tornado.web.RequestHandler):
   def db(self):
     return self.application.db
 
+  def prepare(self):
+    if 'Android' in self.request.headers.get('User-Agent', ''):
+      self.mobile_browser = True
+    else:
+      self.mobile_browser = False
+
   def get_current_user(self):
     user_id = self.get_secure_cookie('user')
     if not user_id:
@@ -72,42 +77,44 @@ class RestosHandler(BaseHandler):
     # 3 ms
     filter_tag = self.get_argument('tag', None)
     tag_list = set()
-    restos_by_arr = {}
+    restos_by_zip = {}
     for resto in self.db.paris_restos.find():
       if filter_tag and filter_tag not in resto.get('tags', []):
         continue
-      arr = resto.get('postal_code', 'Unknown')
-      resto_id = str(resto['_id'])
+      postal_code = resto.get('postal_code', 'Unknown')
+      if not postal_code or '75' not in postal_code:
+        postal_code = 'Unknown'
       resto_address = resto.get('address', '')
+      # keep a list of all known tags, in order to generate links.
       tag_list.update(resto.get('tags', []))
       d = {'name': resto['name'],
            'short_address': resto_address.split(',')[0],
-           'tags': resto.get('tags', None),
+           'tags': resto.get('tags', []),
            'map_link': geo.gen_map_link(resto_address, resto['name']),
            'search_link': ('http://www.google.com/search?q='
                            '%s+Paris+France' % self.urlescape(resto['name'])),
-           'edit_link': '/edit_resto?id=%s' % self.urlescape(resto_id),
-           'rm_link': '/rm_resto?id=%s' % self.urlescape(resto_id),
+           'edit_link': '/edit_resto?id=%s' % self.urlescape(str(resto['_id'])),
+           'rm_link': '/rm_resto?id=%s' % self.urlescape(str(resto['_id'])),
            }
-      restos_by_arr.setdefault(arr, []).append(d)
+      restos_by_zip.setdefault(postal_code, []).append(d)
 
-    # 30 ms
     # Sort the restaurants by name.
     for i in range(75001, 75021) + ['Unknown']:
-      if str(i) in restos_by_arr:
-        restos_by_arr[str(i)].sort(key=lambda x: x['name'])
+      if str(i) in restos_by_zip:
+        restos_by_zip[str(i)].sort(key=lambda x: x['name'])
 
 
     if self.get_argument('format', None) == 'json':
-      self.write(json.dumps(restos_by_arr))
+      self.write(json.dumps(restos_by_zip))
     else:
-      self.render('restos.tmpl',
-                  restos_by_arr=restos_by_arr,
-                  user_authd=True if self.get_current_user() else False,
-                  tag_list=tag_list)
+      context = {'restos_by_zip': restos_by_zip,
+                 'user_authd': True if self.get_current_user() else False,
+                 'mobile_browser': self.mobile_browser,
+                 'tag_list': tag_list,
+                 }
+      self.render('restos.tmpl', context=context)
 
-      # 40 ms
-
+      
 class AddRestoHandler(BaseHandler):
   @tornado.web.authenticated
   def get(self):

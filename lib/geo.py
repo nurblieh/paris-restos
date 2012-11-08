@@ -48,7 +48,7 @@ class GeoLoc(object):
         logging.error('Unknown arg to GeoLoc constructor. (%s)', type(arg))
 
   def geocode_address(self, address):
-    params = {'address': address}
+    params = {'address': address.encode('utf-8')}
     self._geocode(params)
 
   def geocode_latlng(self, latlng):
