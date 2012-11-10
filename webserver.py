@@ -175,6 +175,7 @@ class EditRestoHandler(BaseHandler):
         d['postal_code'] = geo_results.postal_code
 
     d['description'] = self.get_argument('description', '')
+    d['tags'] = self.get_argument('tags', '').split(',')
     # TODO: create backup table.
     self.db.paris_restos.update({'_id': resto_id},
                                 {'$set': d})

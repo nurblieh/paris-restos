@@ -22,6 +22,8 @@
       <textarea name="description">{{ resto.get('description', '') or '' }}</textarea></br>
       Postal Code:</br>
       <input name="postal_code" value="{{ resto.get('postal_code', 'Unknown') }}"></br>
+      Tags: (comma separated):</br>
+      <input name="tags" value="{{ ','.join(resto.get('tags', [])) }}"></br>
       <input type="submit">
     </form>
   </body>
