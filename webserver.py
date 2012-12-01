@@ -26,7 +26,8 @@ class Application(tornado.web.Application):
                 (r'/edit_resto', EditRestoHandler),
                 (r'/rm_resto', RemoveRestoHandler),
                 (r'/auth/login', AuthLoginHandler),
-                (r'/auth/logout', AuthLogoutHandler),]
+                (r'/auth/logout', AuthLogoutHandler),
+                ]
     # Load or generate a secret value for login/auth data.
     if os.path.exists('cookie_secret'):
       cookie_secret = file('cookie_secret').read().strip()
@@ -39,6 +40,7 @@ class Application(tornado.web.Application):
                 'cookie_secret': cookie_secret,
                 'template_path': 'templates',
                 'login_url': '/auth/login',
+                'static_path': 'static',
                 }
     tornado.web.Application.__init__(self, handlers, **settings)
     # Global db handler.
