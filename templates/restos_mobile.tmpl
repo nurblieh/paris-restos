@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="static/bootstrap/css/docs.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span12"> <!-- body -->
+
+          {% for arr in range(75001, 75021) + ['Unknown',] %}
+          <section id="{{ arr }}">
+            <h3>{{ arr }}</h3>
+            <table class="table table-condensed table-striped table-bordered">
+              {% for resto in context['restos_by_zip'].get(str(arr), []) %}
+              <tr>
+                <td>{{ resto['name'] }}</td>
+                <td>
+                  {% for tag in resto['tags'] %}
+                    <span class="label">{{ tag }}</span>&nbsp
+                  {% end %}
+                </td>
+                <td><a href="{{ resto['map_link'] }}">map</a></td>
+                <td><a href="{{ resto['search_link'] }}">Google</a></td>
+                {% if context['user_authd'] %}
+                  <td><a href="{{ resto['edit_link'] }}">edit</a></td>
+                {% end %}
+              </tr>
+              {% end %}
+            </table>
+          </section>
+          {% end %} 
+
+          <table class="table table-condensed table-bordered">
+            <tr><td>
+                {% for tag in context['tag_list'] %}
+                <a href="/restos?tag={{ tag }}">{{ tag }}</a>&nbsp
+                {% end %}
+            </td></tr>
+          </table>
+        </div> <!-- span12 -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </body>

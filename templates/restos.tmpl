@@ -33,7 +33,11 @@
               {% for resto in context['restos_by_zip'].get(str(arr), []) %}
                 <tr>
                   <td>{{ resto['name'] }}</td>
-                  <td>{% for tag in resto['tags'] %}<span class="label">{{ tag }}</span>&nbsp{% end %}
+                  <td>
+                    {% for tag in resto['tags'] %}
+                      <span class="label">{{ tag }}</span>&nbsp
+                    {% end %}
+                  </td>
                   <td><a href="{{ resto['map_link'] }}">{{ resto['short_address'] }}</a></td>
                   <td><a href="{{ resto['search_link'] }}">Google</a></td>
                   {% if context['user_authd'] %}

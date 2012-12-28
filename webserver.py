@@ -74,6 +74,7 @@ class BaseHandler(tornado.web.RequestHandler):
   def urlescape(string):
     return urllib.quote_plus(string.encode('utf-8'))
 
+
 class RestosHandler(BaseHandler):
   def get(self):
     # 3 ms
@@ -111,10 +112,12 @@ class RestosHandler(BaseHandler):
     else:
       context = {'restos_by_zip': restos_by_zip,
                  'user_authd': True if self.get_current_user() else False,
-                 'mobile_browser': self.mobile_browser,
                  'tag_list': tag_list,
                  }
-      self.render('restos.tmpl', context=context)
+      if self.mobile_browser or self.get_arguments('force_mobile'):
+        self.render('restos_mobile.tmpl', context=context)
+      else:
+        self.render('restos.tmpl', context=context)
 
       
 class AddRestoHandler(BaseHandler):
