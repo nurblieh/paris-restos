@@ -9,6 +9,7 @@ import json
 import logging
 import os
 import tornado.auth
+import tornado.escape
 import tornado.ioloop
 import tornado.template
 import tornado.web
@@ -81,6 +82,7 @@ class RestosHandler(BaseHandler):
     filter_tag = self.get_argument('tag', None)
     tag_list = set()
     restos_by_zip = {}
+    restos_by_zip_simple = {}
     for resto in self.db.paris_restos.find():
       if filter_tag and filter_tag not in resto.get('tags', []):
         continue
@@ -90,15 +92,23 @@ class RestosHandler(BaseHandler):
       resto_address = resto.get('address', '')
       # keep a list of all known tags, in order to generate links.
       tag_list.update(resto.get('tags', []))
+      # We construct a simple dict which will be dumped to json for our js
+      # parsing. Next, we'll construct another dict with more fields for
+      # our template generation.
       d = {'name': resto['name'],
-           'short_address': resto_address.split(',')[0],
-           'tags': resto.get('tags', []),
-           'map_link': geo.gen_map_link(resto_address, resto['name']),
-           'search_link': ('http://www.google.com/search?q='
-                           '%s+Paris+France' % self.urlescape(resto['name'])),
-           'edit_link': '/edit_resto?id=%s' % self.urlescape(str(resto['_id'])),
-           'rm_link': '/rm_resto?id=%s' % self.urlescape(str(resto['_id'])),
+           'coords': resto['loc'],  # contains dict of {lat: nn.n, lon: nn.n}
+           'id': str(resto['_id']),
            }
+      restos_by_zip_simple.setdefault(postal_code, []).append(d.copy())
+      d.update({
+        'short_address': resto_address.split(',')[0],
+        'tags': resto.get('tags', []),
+        'map_link': geo.gen_map_link(resto_address, resto['name']),
+        'search_link': ('http://www.google.com/search?q='
+                        '%s+Paris+France' % self.urlescape(resto['name'])),
+        'edit_link': '/edit_resto?id=%s' % self.urlescape(str(resto['_id'])),
+        'rm_link': '/rm_resto?id=%s' % self.urlescape(str(resto['_id']))
+        })
       restos_by_zip.setdefault(postal_code, []).append(d)
 
     # Sort the restaurants by name.
@@ -113,6 +123,7 @@ class RestosHandler(BaseHandler):
       context = {'restos_by_zip': restos_by_zip,
                  'user_authd': True if self.get_current_user() else False,
                  'tag_list': tag_list,
+                 'restos_by_zip_simple': json.dumps(restos_by_zip_simple),
                  }
       if self.mobile_browser or self.get_arguments('force_mobile'):
         self.render('restos_mobile.tmpl', context=context)

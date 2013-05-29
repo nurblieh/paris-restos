@@ -36,11 +36,23 @@
           {% end %} 
 
           <table class="table table-condensed table-bordered">
-            <tr><td>
-                {% for tag in context['tag_list'] %}
-                <a href="/restos?tag={{ tag }}">{{ tag }}</a>&nbsp
-                {% end %}
-            </td></tr>
+            <tr>
+              <td>
+                <p align="center">
+                  {% for tag in context['tag_list'] %}
+                  <a href="/restos?tag={{ tag }}">{{ tag }}</a>&nbsp
+                  {% end %}
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <table class="table table-condensed table-bordered">
+            <tr>
+              <td>
+                <p align="center"><a href="/add_resto">Add Resto</a></p>
+              </td>
+            </tr>
           </table>
         </div> <!-- span12 -->
       </div> <!-- row -->
